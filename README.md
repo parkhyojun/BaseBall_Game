@@ -1,19 +1,19 @@
-# BaseBall_Game
+<h1># BaseBall_Game</h1>
 
 
-//Computer서버에 Client서버를 Tcp 소켓 프로토콜을 통해 연결
-//Client가 Computer의 IP주소와 port번호를 통해 서버연결 요청
+//Computer서버에 Client서버를 Tcp 소켓 프로토콜을 통해 연결<br />
+//Client가 Computer의 IP주소와 port번호를 통해 서버연결 요청<br /><br />
 
 
 
 *프로토콜 : 컴퓨터 간의 정보를 주고 받을 때의 통신방법에 대한 규약으로 접속이나, 전달방식, 데이터형식, 검증 방법등을 맞추기 위한 약속
 종류 
-1) TCP <br /> - 데이터의 전달의 신뢰성을 최대한 보장하기 위한 방식 <br />
+<strong>1) TCP</strong> <br /> - 데이터의 전달의 신뢰성을 최대한 보장하기 위한 방식 <br />
         - 연결지향형 통신 <br />
         - 순차적으로 데이터를 전송하고 확인 및 오류 시 재 전송<br />
         - HTTP, FTP등에 사용<br /><br />
 
-2) UDP<br />  - 데이터의 빠른 전달을 보장하기 위해 사용<br />
+<strong>2) UDP</strong><br />  - 데이터의 빠른 전달을 보장하기 위해 사용<br />
         - 비 연결 지향형 통신<br />
         - 확인 및 재전송 작업이 없음<br />
         - 실시간 스트리밍 서비스 등에 사용<br />
